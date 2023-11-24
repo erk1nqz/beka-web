@@ -1,0 +1,92 @@
+.catalog {
+    padding-top: 120px;
+    height: 145vh;
+    background-color: var(--color4);
+}
+
+@media (max-width: 992px) {
+    .catalog {
+        height: 200vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .flowers {
+        flex-direction: column;
+        align-items: center;
+    }
+    .flower-card:nth-last-child(-n+3) {
+        display: none;
+    }
+}
+
+.catalog-title {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    font-family: var(--title-font-family);
+    margin-bottom: 30px;
+}
+
+.flowers {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.flower-card {
+    width: 250px;
+}
+
+.card-desc {
+    padding: 5px 15px;
+    background-color: #fff;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card-price {
+    color: gray;
+}
+
+.card-bottom {
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(220, 220, 220, 0.6);
+    padding: 10px 0 15px 0;
+    border-radius: 0 0 70px 70px;
+    transition: background-color .2s linear;
+}
+
+.card-bottom:hover {
+    background-color: rgba(220, 220, 220, 0.4);
+}
+
+.card-btn {
+    font-size: 17px;
+    text-decoration: none;
+    color: #0000005a;
+}
+
+.catalog-link {
+    text-align: center;
+}
+
+.catalog-btn {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color .2s linear;
+}
+
+.catalog-btn:hover {
+    color: rgb(255, 186, 58);
+}

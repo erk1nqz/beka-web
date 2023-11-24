@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../style.css">
+    <title>AliBek Medicine</title>
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+        <div class="container">
+            <a href="../../index.html" class="navbar-brand text-black">AliBek Medicine</a>
+            <button
+            type="button" 
+            class="navbar-toggler"
+            data-bs-target="#navbarNav"
+            data-bs-toggle="collapse"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-lable="Toggle Navbar">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="mx-auto"></div>
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="../../index.html" class="nav-link text-black">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link text-black">About us</a></li>
+                    <li class="nav-item"><a href="services.html" class="nav-link text-black">Services</a></li>
+                    <li class="nav-item"><a href="prices.html" class="nav-link text-black">Prices</a></li>
+                    <li class="nav-item"><a href="team.html" class="nav-link text-black">Our team</a></li>
+                    <li class="nav-item"><a href="contacts.html" class="nav-link text-black">Contacts</a></li>
+                 </ul>
+            </div>
+        </div> 
+    </nav>
+    <div class="scroll-container">
+        <div class="scroll-indicator" id="thisPartMoves"></div>
+    </div> 
+
+    <header class="about">
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg align-items-center g-5 py-5">
+                <div class="about-left col-10 col-sm-8 col-lg-6">
+                    <img src="../img/about-image-1.png" class="d-block mx-lg-auto img-fluid" alt="medical photo" width="700" height="500" loading="lazy">
+                </div>
+                <div class="about-right col-lg-6">
+                    <h1 class="about-title display-5 fw-bold text-body-emphasis lh-1 mb-3">About Our <span>Clinic</span></h1>
+                    <p class="about-text lead">We provide high quality medical services, attentive care and state-of-the-art equipment. Our specialists are experienced professionals ready to help you achive good health.</p>
+                    <a href="" class="about-btn">Learn more</a>
+                    <img src="../img/about-image-2.png" class="d-block img-fluid   " height="150" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="accordion">
+        <div class="container">
+            <div class="accordion-inner">
+                <h1 class="faq-title"><span>FAQ</span></h1>
+                <p class="faq-text lead">Here you can find answers on popular questions</p>
+                <button class="accordion-item">What is the reception number of your clinic?</button>
+                <div class="panel">
+                    <p>To call a doctor or make an appointment, you can call 50-99-90</p>
+                </div>
+
+                <button class="accordion-item">Clinic work schedule</button>
+                <div class="panel">
+                    <p>The clinic is open from 8:00 to 21:00 every day seven days a week</p>
+                </div>
+
+                <button class="accordion-item">Section 3</button>
+                <div class="panel">
+                    <p>Lorem ipsum...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <a href="../../index.html" class="footer-brand">AliBek Medicine</a>
+                <div class="footer-links">
+                    <a href="../../index.html" class="footer-link">Home</a>
+                    <a href="catalog.html" class="footer-link">About us</a>
+                    <a href="aboutus.html" class="footer-link">Services</a>
+                    <a href="contacts.htmlv" class="footer-link">Contacts</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-location">
+                    <div class="footer-text">Mangilik El St. 52a</div>
+                    <div class="footer-text">Astana, Kazakhstan</div>
+                    <div class="footer-text">alibek@medical.kz</div>
+                </div>
+                <div class="footer-socials">
+                    <a href="https://www.instagram.com/bekxpossu" target="_blank"><i class="fa fa-instagram" style="color: #fff;"></i></a>
+                    <a href="https://t.me/bekosyamyn" target="_blank"><i class="fa fa-telegram" style="color: #fff;"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <audio id="deleteSound" src="../error-sound.mp3"></audio>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="../js/srcipt.js"></script>
+    <script src="../js/scroll.js"></script>
+    <script src="../js/deleteSound.js"></script>
+</body>
+</html>

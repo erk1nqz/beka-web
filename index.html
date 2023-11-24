@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>AliBek Medicine</title>
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+        <div class="container">
+            <a href="index.html" class="navbar-brand text-black">AliBek Medicine</a>
+            <button
+            type="button" 
+            class="navbar-toggler"
+            data-bs-target="#navbarNav"
+            data-bs-toggle="collapse"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-lable="Toggle Navbar">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="mx-auto"></div>
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="index.html" class="nav-link text-black">Home</a></li>
+                    <li class="nav-item"><a href="assets/pages/about.html" class="nav-link text-black">About us</a></li>
+                    <li class="nav-item"><a href="assets/pages/services.html" class="nav-link text-black">Services</a></li>
+                    <li class="nav-item"><a href="assets/pages/prices.html" class="nav-link text-black">Prices</a></li>
+                    <li class="nav-item"><a href="assets/pages/team.html" class="nav-link text-black">Our team</a></li>
+                    <li class="nav-item"><a href="assets/pages/contacts.html" class="nav-link text-black">Contacts</a></li>
+                 </ul>
+            </div>
+        </div> 
+    </nav>
+    <div class="scroll-container">
+        <div class="scroll-indicator" id="thisPartMoves"></div>
+    </div> 
+
+
+    <header>
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="assets/img/header-image.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="header-title display-5 fw-bold text-body-emphasis lh-1 mb-3">Your Health - <br><span>Is Our Mission.</span></h1>
+                    <p class="header-text lead">We are here to take care of your health and provide quality medical care. Trust the professionals for your well-being.</p>
+                    <button type="button" class="btn btn-primary px-4 me-md-2">Get Appoinment</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="choose">
+        <div class="container">
+            <h2 class="choose-title">Why Choose <span>Us?</span></h2>
+            <div class="benefits">
+                <div class="benefit-card">
+                    <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/7895b2/marker.png" alt="marker"/>
+                    <div class="benefit-title">Locations</div>
+                    <p class="text benefit-text">Convenient location in the city center</p>
+                </div>
+                <div class="benefit-card">
+                    <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/7895b2/medical-doctor.png" alt="medical-doctor"/>
+                    <div class="benefit-title">Doctors</div>
+                    <p class="text benefit-text">We have all doctors with a lot of experience</p>
+                </div>
+                <div class="benefit-card">
+                    <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/7895b2/clock--v3.png" alt="clock"/>
+                    <div class="benefit-title">Saving time</div>
+                    <p class="text benefit-text">Being treated with us you save your time</p>
+                </div>
+                <div class="benefit-card">
+                    <img width="48" height="48" src="https://img.icons8.com/sf-regular-filled/48/7895b2/group-foreground-selected.png" alt="clients"/>
+                    <div class="benefit-title">Client base</div>
+                    <p class="text benefit-text">We have a large and permanent client base</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <a href="index.html" class="footer-brand">AliBek Medicine</a>
+                <div class="footer-links">
+                    <a href="index.html" class="footer-link">Home</a>
+                    <a href="assets/pages/catalog.html" class="footer-link">About us</a>
+                    <a href="assets/pages/aboutus.html" class="footer-link">Services</a>
+                    <a href="assets/pages/contacts.htmlv" class="footer-link">Contacts</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-location">
+                    <div class="footer-text">Mangilik El St. 52a</div>
+                    <div class="footer-text">Astana, Kazakhstan</div>
+                    <div class="footer-text">alibek@medical.kz</div>
+                </div>
+                <div class="footer-socials">
+                    <a href="https://www.instagram.com/bekxpossu" target="_blank"><i class="fa fa-instagram" style="color: #fff;"></i></a>
+                    <a href="https://t.me/bekosyamyn" target="_blank"><i class="fa fa-telegram" style="color: #fff;"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <audio id="deleteSound" src="assets/error-sound.mp3"></audio>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="assets/js/srcipt.js"></script>
+    <script src="assets/js/scroll.js"></script>
+    <script src="assets/js/deleteSound.js"></script>
+</body>
+</html>

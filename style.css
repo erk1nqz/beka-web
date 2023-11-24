@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Poppins:wght@300;400&display=swap');
+@import url(assets/css/about.css);
+@import url(assets/css/services.css);
+@import url(assets/css/prices.css);
+@import url(assets/css/contacts.css);
+
+
+:root {
+    --main-color: #022FF2;
+    --bg-color: #F1F8FF;
+    --bg-color2: #212529;
+    --text-font-family: 'Poppins', sans-serif;
+    --title-font-family: 'Montserrat', sans-serif;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    color: #000;
+    font-family: var(--title-font-family);
+    font-weight: 600;
+    font-size: 30px;
+    transition: color .2s linear;
+}
+
+.navbar-brand:hover {
+    color: #466582;
+}
+
+.nav-link {
+    color: #000;
+    font-size: 20px;
+    transition: color .2s linear;
+}
+
+.nav-link:hover {
+    color: #466582;
+}
+
+body {
+    font-family: var(--text-font-family);
+    background-color: var(--bg-color);
+}
+
+span {
+    color: var(--main-color);
+}
+
+.container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/*  SCROLL  */
+.scroll-container {
+    position: fixed;
+    top: 55px;
+    width: 100%;
+    height: 1.5rem;
+    z-index: 1000;
+  }
+  
+  .scroll-indicator {
+    height: 1.5rem;
+    background: var(--main-color);
+    width: 0%;
+  }
+/*  SCROLL  */
+
+/*  HEADER  */
+
+header {
+    height: 100vh;
+}
+
+.header-title {
+    font-family: var(--title-font-family);
+    font-weight: 600;
+}
+
+.header-text {
+    width: 400px;
+}
+
+
+
+/*  CHOOSE  */
+.choose {
+    height: 60vh;
+    background-color: var(--color1);
+}
+
+@media (max-width: 992px) {
+    .choose {
+        height: 80vh;
+    }
+}
+
+.choose-title {
+    padding: 50px 0;
+    font-size: 50px;
+    text-align: center;
+    font-family: var(--title-font-family);
+    font-weight: 600;
+}
+
+.benefits {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.benefit-card {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.benefit-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--main-color);
+}
+
+.benefit-text {
+    text-align: center;
+}
+
+
+
+/*  ABOUT  */
+
+.about-title {
+    font-family: var(--title-font-family);
+    font-weight: 600;
+}
+
+.about-text {
+    width: 400px;
+}
+
+.about-btn {
+    text-decoration: none;
+    color: var(--main-color);
+    font-family: var(--title-font-family);
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+
+
+/*  FAQ  */
+
+.faq-title {
+    font-family: var(--title-font-family);
+    font-weight: 700;
+    text-align: center;
+}
+
+.faq-text {
+    text-align: center;
+}
+
+.accordion-inner {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.accordion-item {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion-item:hover {
+    background-color: #ccc;
+}
+
+.accordion-item:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 5px 18px 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+
+/*  FOOTER  */
+footer {
+    background-color: var(--bg-color2);
+}
+
+.footer-top {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-brand {
+    text-decoration: none;
+    color: var(--bg-color);
+    font-family: var(--ff-cormorant);
+    font-weight: 600;
+    font-size: 30px;
+    transition: color .2s linear;
+}
+
+.footer-brand:hover {
+    color: var(--main-color);
+}
+
+.footer-links {
+    display: flex;
+    gap: 50px;
+}
+
+.footer-link {
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--bg-color);
+    transition: color .2s linear;
+}
+
+@media (max-width: 769px) {
+    .footer-links {
+        display: none;
+    }
+}
+
+.footer-link:hover {
+    color: var(--main-color);
+}
+
+.footer-bottom {
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-text {
+    font-size: 21px;
+    letter-spacing: 1px;
+    color: var(--bg-color);
+}
