@@ -1,0 +1,69 @@
+.team {
+    padding-top: 150px;
+    height: 70vh;
+}
+
+.team-title {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    font-family: var(--title-font-family);
+    margin-bottom: 30px;
+}
+
+.team-inner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-name {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--main-color);
+}
+
+
+
+/*  REVIEWS  */
+.reviews {
+    height: 60vh;
+}
+
+.reviews-title {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    font-family: var(--title-font-family);
+    margin-bottom: 30px;
+}
+
+.reviews-inner {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.reviews-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.reviews-text {
+    text-align: center;
+    font-size: 14px;
+}
+
+.reviews-name {
+    font-size: 20px;
+    font-weight: 600;
+}
